@@ -1,8 +1,17 @@
-class demo{
+import javax.swing.*;
+
+
+
+class demo extends JFrame{
+
 
 public static void main(String[] args){
 
-System.out.println("Hello hvygvvyuv");
+   setTitle("Demo frame");
+  setVisible(true);
+  setLayout(null);
+
+  
 
 }
 }
