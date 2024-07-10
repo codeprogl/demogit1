@@ -3,23 +3,15 @@ import javax.swing.*;
 
 
 class demo{
-
-JFrame f;
-JInternalFrame inf;
    
 demo(){
 
-   f = new JFrame("Frame");
-   f.setVisible(true);
+   double d;
+
+   d = 4557.737376;
+
+   System.out.println(d);
    
-   f.setSize(400,400);
-   f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-   inf = new JInternalFrame("");
-   inf.setVisible(true);
-   inf.setLayout(null);
-   f.add(inf);
-
    
 }
 
