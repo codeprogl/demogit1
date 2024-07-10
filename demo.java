@@ -1,7 +1,3 @@
-import javax.swing.*;
-
-
-
 class demo{
    
 demo(){
@@ -11,6 +7,7 @@ demo(){
    d = 4557.737376;
 
    System.out.println(d);
+   
    
    
 }
